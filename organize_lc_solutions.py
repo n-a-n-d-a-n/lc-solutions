@@ -4,29 +4,18 @@ organize_lc_solutions.py
 Run this INSIDE your local lc-solutions repo folder (C:\Projects\lc-solutions).
 
 What it does:
-1. Scans all solution files in the repo root (e.g. 1.cpp, 196.sql, 125.py).
+1. Scans all solution files anywhere in the repo (root + topic subfolders).
 2. Looks up each LeetCode problem number's title, difficulty, and topic tags
    via LeetCode's public GraphQL API.
-3. Reorganizes files into topic-based folders, e.g.:
-       arrays-hashing/1-two-sum.cpp
-       dynamic-programming/198-house-robber.cpp
-       database/196-delete-duplicate-emails.sql
+3. Reorganizes files into topic-based folders.
 4. Generates a README.md with a full table: # | Name | Difficulty | Topic | Language | Link
 
 Requirements:
-    pip install requests --break-system-packages   (or just `pip install requests` on Windows)
+    pip install requests --break-system-packages
 
 Usage:
-    python organize_lc_solutions.py            # dry run, shows planned moves + writes README
+    python organize_lc_solutions.py            # dry run
     python organize_lc_solutions.py --apply    # actually moves files into folders
-
-Notes:
-- Safe to re-run. It only reads numeric-prefixed files in the root directory.
-- If a lookup fails (private/contest-only problem, rate limit, etc.), the file
-  is left in place and listed under "Needs manual entry" in the README so you
-  can fill in the name/difficulty yourself.
-- LeetCode's API is unofficial/public and occasionally rate-limits bursts of
-  requests, so the script sleeps briefly between calls.
 """
 
 import os
@@ -122,7 +111,7 @@ def main():
     apply_moves = "--apply" in sys.argv
 
     files = []
-    for f in ROOT.iterdir():
+    for f in ROOT.rglob("*"):
         if f.is_file() and f.suffix in LANG_EXT:
             m = re.match(r"^(\d+)", f.stem)
             if m:
@@ -130,7 +119,6 @@ def main():
 
     if not files:
         print("No numeric-prefixed solution files found in this folder.")
-        print("Run this script from inside your lc-solutions repo root.")
         return
 
     files.sort(key=lambda x: x[0])
@@ -185,7 +173,9 @@ def main():
             "num": num, "name": title, "difficulty": difficulty,
             "topic": topic_folder, "lang": lang, "file": new_rel_path,
         })
-        moves.append((path, ROOT / topic_folder / new_name))
+        dest_path = ROOT / topic_folder / new_name
+        if path.resolve() != dest_path.resolve():
+            moves.append((path, dest_path))
 
         print(f"  #{num:<5} {title:<40} [{difficulty:<6}] -> {new_rel_path}")
 
