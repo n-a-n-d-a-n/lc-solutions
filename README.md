@@ -1,11 +1,11 @@
 # LeetCode Solutions & DSA Practice
 
-A collection of **126 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
+A collection of **127 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
 
 ## Stats
 
-- **By language:** CPP: 113 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
-- **By difficulty:** Easy: 99 | Medium: 27
+- **By language:** CPP: 114 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By difficulty:** Easy: 100 | Medium: 27
 
 ## Problems
 
@@ -128,6 +128,7 @@ A collection of **126 solved problems** from LeetCode, covering data structures,
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | Easy | string | cpp | `string/3894-traffic-signal-color.cpp` |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | Medium | array | cpp | `array/3895-count-digit-appearances.cpp` |
 | 3914 | [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/) | Medium | greedy | cpp | `greedy/3914-minimum-operations-to-make-array-non-decreasing.cpp` |
+| 3917 | [Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | Easy | array | cpp | `array/3917-count-indices-with-opposite-parity.cpp` |
 | 3921 | [Score Validator](https://leetcode.com/problems/score-validator/) | Easy | array | cpp | `array/3921-score-validator.cpp` |
 | 3925 | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | Easy | array | cpp | `array/3925-concatenate-array-with-reverse.cpp` |
 | 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | Medium | hash-table | cpp | `hash-table/3941-password-strength.cpp` |
