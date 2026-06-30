@@ -1,11 +1,11 @@
 # LeetCode Solutions & DSA Practice
 
-A collection of **127 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
+A collection of **128 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
 
 ## Stats
 
-- **By language:** CPP: 114 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
-- **By difficulty:** Easy: 100 | Medium: 27
+- **By language:** CPP: 115 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By difficulty:** Easy: 100 | Medium: 28
 
 ## Problems
 
@@ -61,6 +61,7 @@ A collection of **127 solved problems** from LeetCode, covering data structures,
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | linked-list | cpp | `linked-list/1290-convert-binary-number-in-a-linked-list-to-integer.cpp` |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | Medium | math | cpp | `math/1344-angle-between-hands-of-a-clock.cpp` |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | hash-table | cpp | `hash-table/1347-minimum-number-of-steps-to-make-two-strings-anagram.cpp` |
+| 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Medium | hash-table | cpp | `hash-table/1358-number-of-substrings-containing-all-three-characters.cpp` |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | array | cpp | `array/1365-how-many-numbers-are-smaller-than-the-current-number.cpp` |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy | tree | cpp | `tree/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cpp` |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | array | cpp | `array/1431-kids-with-the-greatest-number-of-candies.cpp` |
@@ -136,8 +137,8 @@ A collection of **127 solved problems** from LeetCode, covering data structures,
 | 3954 | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | Easy | dynamic-programming | cpp | `dynamic-programming/3954-sum-of-compatible-numbers-in-range-i.cpp` |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | Easy | uncategorized | cpp | `uncategorized/3959-check-good-integer.cpp` |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | Easy | uncategorized | cpp | `uncategorized/3963-create-grid-with-exactly-one-path.cpp` |
-| 3968 | [Maximum Manhattan Distance After All Moves](https://leetcode.com/problems/maximum-manhattan-distance-after-all-moves/) | Medium | uncategorized | cpp | `uncategorized/3968-maximum-manhattan-distance-after-all-moves.cpp` |
-| 3974 | [Maximum Total Sum of K Selected Elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/) | Medium | uncategorized | cpp | `uncategorized/3974-maximum-total-sum-of-k-selected-elements.cpp` |
+| 3968 | [Maximum Manhattan Distance After All Moves](https://leetcode.com/problems/maximum-manhattan-distance-after-all-moves/) | Medium | string | cpp | `string/3968-maximum-manhattan-distance-after-all-moves.cpp` |
+| 3974 | [Maximum Total Sum of K Selected Elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/) | Medium | greedy | cpp | `greedy/3974-maximum-total-sum-of-k-selected-elements.cpp` |
 
 ---
 _README auto-generated from LeetCode's public API. Re-run `organize_lc_solutions.py` after adding new solutions._
