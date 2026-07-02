@@ -1,11 +1,11 @@
 # LeetCode Solutions & DSA Practice
 
-A collection of **128 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
+A collection of **131 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
 
 ## Stats
 
-- **By language:** CPP: 115 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
-- **By difficulty:** Easy: 100 | Medium: 28
+- **By language:** CPP: 118 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By difficulty:** Easy: 101 | Medium: 30
 
 ## Problems
 
@@ -28,9 +28,11 @@ A collection of **128 solved problems** from LeetCode, covering data structures,
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | array | cpp | `array/169-majority-element.cpp` |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | bit-manipulation | python | `bit-manipulation/191-number-of-1-bits.py` |
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | database | sql | `database/196-delete-duplicate-emails.sql` |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | dynamic-programming | cpp | `dynamic-programming/198-house-robber.cpp` |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | hash-table | cpp | `hash-table/202-happy-number.cpp` |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | linked-list | cpp | `linked-list/203-remove-linked-list-elements.cpp` |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | hash-table | cpp | `hash-table/205-isomorphic-strings.cpp` |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | dynamic-programming | cpp | `dynamic-programming/213-house-robber-ii.cpp` |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | array | cpp | `array/217-contains-duplicate.cpp` |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | tree | cpp | `tree/226-invert-binary-tree.cpp` |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | two-pointers | cpp | `two-pointers/234-palindrome-linked-list.cpp` |
@@ -55,6 +57,7 @@ A collection of **128 solved problems** from LeetCode, covering data structures,
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | greedy | cpp | `greedy/860-lemonade-change.cpp` |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | two-pointers | cpp | `two-pointers/876-middle-of-the-linked-list.cpp` |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | Easy | array | cpp | `array/1051-height-checker.cpp` |
+| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | dynamic-programming | cpp | `dynamic-programming/1137-n-th-tribonacci-number.cpp` |
 | 1184 | [Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | Easy | array | cpp | `array/1184-distance-between-bus-stops.cpp` |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Easy | hash-table | cpp | `hash-table/1189-maximum-number-of-balloons.cpp` |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | array | cpp | `array/1207-unique-number-of-occurrences.cpp` |
