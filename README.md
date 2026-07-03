@@ -1,11 +1,11 @@
 # LeetCode Solutions & DSA Practice
 
-A collection of **131 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
+A collection of **133 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
 
 ## Stats
 
-- **By language:** CPP: 118 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
-- **By difficulty:** Easy: 101 | Medium: 30
+- **By language:** CPP: 120 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By difficulty:** Easy: 103 | Medium: 30
 
 ## Problems
 
@@ -23,6 +23,8 @@ A collection of **131 solved problems** from LeetCode, covering data structures,
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | tree | cpp | `tree/100-same-tree.cpp` |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | tree | cpp | `tree/101-symmetric-tree.cpp` |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | tree | cpp | `tree/112-path-sum.cpp` |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascal-s-triangle/) | Easy | dynamic-programming | cpp | `dynamic-programming/118-pascal-s-triangle.cpp` |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-s-triangle-ii/) | Easy | dynamic-programming | cpp | `dynamic-programming/119-pascal-s-triangle-ii.cpp` |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | dynamic-programming | cpp | `dynamic-programming/121-best-time-to-buy-and-sell-stock.cpp` |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | string | python | `string/125-valid-palindrome.py` |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | array | cpp | `array/169-majority-element.cpp` |
