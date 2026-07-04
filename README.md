@@ -1,11 +1,11 @@
 # LeetCode Solutions & DSA Practice
 
-A collection of **133 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
+A collection of **138 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
 
 ## Stats
 
-- **By language:** CPP: 120 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
-- **By difficulty:** Easy: 103 | Medium: 30
+- **By language:** CPP: 125 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By difficulty:** Easy: 107 | Medium: 31
 
 ## Problems
 
@@ -51,8 +51,10 @@ A collection of **133 solved problems** from LeetCode, covering data structures,
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | array | cpp | `array/496-next-greater-element-i.cpp` |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | Easy | array | python | `array/500-keyboard-row.py` |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Medium | array | cpp | `array/503-next-greater-element-ii.cpp` |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | Easy | array | cpp | `array/575-distribute-candies.cpp` |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | tree | cpp | `tree/700-search-in-a-binary-search-tree.cpp` |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | string | python | `string/709-to-lower-case.py` |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | dynamic-programming | cpp | `dynamic-programming/746-min-cost-climbing-stairs.cpp` |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | hash-table | python | `hash-table/771-jewels-and-stones.py` |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | string | cpp | `string/796-rotate-string.cpp` |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | Easy | array | cpp | `array/804-unique-morse-code-words.cpp` |
@@ -77,6 +79,7 @@ A collection of **133 solved problems** from LeetCode, covering data structures,
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | Easy | array | cpp | `array/1572-matrix-diagonal-sum.cpp` |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | Medium | dynamic-programming | cpp | `dynamic-programming/1641-count-sorted-vowel-strings.cpp` |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Easy | array | cpp | `array/1732-find-the-highest-altitude.cpp` |
+| 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | Easy | array | cpp | `array/1748-sum-of-unique-elements.cpp` |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | array | cpp | `array/1752-check-if-array-is-sorted-and-rotated.cpp` |
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | Easy | database | sql | `database/1757-recyclable-and-low-fat-products.sql` |
 | 1833 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | Medium | greedy | cpp | `greedy/1833-maximum-ice-cream-bars.cpp` |
@@ -94,6 +97,7 @@ A collection of **133 solved problems** from LeetCode, covering data structures,
 | 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | Medium | greedy | cpp | `greedy/2126-destroying-asteroids.cpp` |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | two-pointers | cpp | `two-pointers/2130-maximum-twin-sum-of-a-linked-list.cpp` |
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | greedy | cpp | `greedy/2144-minimum-cost-of-buying-candies-with-discount.cpp` |
+| 2221 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | Medium | array | cpp | `array/2221-find-triangular-sum-of-an-array.cpp` |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | math | cpp | `math/2235-add-two-integers.cpp` |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Easy | tree | cpp | `tree/2236-root-equals-sum-of-children.cpp` |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Easy | database | sql | `database/2356-number-of-unique-subjects-taught-by-each-teacher.sql` |
@@ -131,6 +135,7 @@ A collection of **133 solved problems** from LeetCode, covering data structures,
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | math | cpp | `math/3783-mirror-distance-of-an-integer.cpp` |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | Easy | string | cpp | `string/3794-reverse-string-prefix.cpp` |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | Easy | array | cpp | `array/3838-weighted-word-mapping.cpp` |
+| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | Easy | array | cpp | `array/3866-first-unique-even-element.cpp` |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | Easy | string | cpp | `string/3894-traffic-signal-color.cpp` |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | Medium | array | cpp | `array/3895-count-digit-appearances.cpp` |
 | 3914 | [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/) | Medium | greedy | cpp | `greedy/3914-minimum-operations-to-make-array-non-decreasing.cpp` |
