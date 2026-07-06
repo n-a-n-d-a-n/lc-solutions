@@ -4,7 +4,7 @@ A collection of **140 solved problems** from LeetCode, covering data structures,
 
 ## Stats
 
-- **By language:** CPP: 126 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By language:** CPP: 127 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
 - **By difficulty:** Easy: 83 | Medium: 30
 
 ## Problems
