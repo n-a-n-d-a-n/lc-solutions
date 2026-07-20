@@ -1,11 +1,11 @@
 # LeetCode Solutions & DSA Practice
 
-A collection of **140 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
+A collection of **141 solved problems** from LeetCode, covering data structures, algorithms, and SQL database problems.
 
 ## Stats
 
-- **By language:** CPP: 127 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
-- **By difficulty:** Easy: 83 | Medium: 30
+- **By language:** CPP: 128 | JAVASCRIPT: 1 | PYTHON: 9 | SQL: 3
+- **By difficulty:** Easy: 108 | Hard: 1 | Medium: 32
 
 ## Problems
 
@@ -16,6 +16,7 @@ A collection of **140 solved problems** from LeetCode, covering data structures,
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | binary-search | cpp | `binary-search/35-search-insert-position.cpp` |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | dynamic-programming | cpp | `dynamic-programming/45-jump-game-ii.cpp` |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | array | cpp | `array/48-rotate-image.cpp` |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | backtracking | cpp | `backtracking/52-n-queens-ii.cpp` |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | string | cpp | `string/58-length-of-last-word.cpp` |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | two-pointers | cpp | `two-pointers/61-rotate-list.cpp` |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | array | cpp | `array/88-merge-sorted-array.cpp` |
@@ -98,33 +99,33 @@ A collection of **140 solved problems** from LeetCode, covering data structures,
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | two-pointers | cpp | `two-pointers/2130-maximum-twin-sum-of-a-linked-list.cpp` |
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | greedy | cpp | `greedy/2144-minimum-cost-of-buying-candies-with-discount.cpp` |
 | 2221 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | Medium | array | cpp | `array/2221-find-triangular-sum-of-an-array.cpp` |
-| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | ? | uncategorized | cpp | `2235-add-two-integers.cpp` |
-| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | ? | uncategorized | cpp | `2236-root-equals-sum-of-children.cpp` |
-| 2356 | [Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | ? | uncategorized | sql | `2356-number-of-unique-subjects-taught-by-each-teacher.sql` |
-| 2410 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/) | ? | uncategorized | cpp | `2410-maximum-matching-of-players-with-trainers.cpp` |
-| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | ? | uncategorized | cpp | `2418-sort-the-people.cpp` |
-| 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | ? | uncategorized | cpp | `2540-minimum-common-value.cpp` |
-| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | ? | uncategorized | cpp | `2553-separate-the-digits-in-an-array.cpp` |
-| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | ? | uncategorized | cpp | `2574-left-and-right-sum-differences.cpp` |
-| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | ? | uncategorized | cpp | `2578-split-with-minimum-sum.cpp` |
-| 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | ? | uncategorized | javascript | `2703-return-length-of-arguments-passed.js` |
-| 2706 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | ? | uncategorized | cpp | `2706-buy-two-chocolates.cpp` |
-| 2798 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | ? | uncategorized | cpp | `2798-number-of-employees-who-met-the-target.cpp` |
-| 2806 | [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/) | ? | uncategorized | cpp | `2806-account-balance-after-rounded-purchase.cpp` |
-| 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | ? | uncategorized | cpp | `2824-count-pairs-whose-sum-is-less-than-target.cpp` |
-| 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | ? | uncategorized | cpp | `2833-furthest-point-from-origin.cpp` |
-| 2877 | [Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list/) | ? | uncategorized | python | `2877-create-a-dataframe-from-list.py` |
-| 2879 | [Display the First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/) | ? | uncategorized | python | `2879-display-the-first-three-rows.py` |
-| 2886 | [Change Data Type](https://leetcode.com/problems/change-data-type/) | ? | uncategorized | python | `2886-change-data-type.py` |
-| 3100 | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | ? | uncategorized | cpp | `3100-water-bottles-ii.cpp` |
-| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/) | ? | uncategorized | cpp | `3110-score-of-a-string.cpp` |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | ? | uncategorized | cpp | `3120-count-the-number-of-special-characters-i.cpp` |
-| 3190 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | ? | uncategorized | cpp | `3190-find-minimum-operations-to-make-all-elements-divisible-by-three.cpp` |
-| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | ? | uncategorized | cpp | `3280-convert-date-to-binary.cpp` |
-| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | ? | uncategorized | cpp | `3300-minimum-element-after-replacement-with-digit-sum.cpp` |
-| 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | ? | uncategorized | cpp | `3432-count-partitions-with-even-sum-difference.cpp` |
-| 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | ? | uncategorized | cpp | `3467-transform-array-by-parity.cpp` |
-| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | ? | uncategorized | cpp | `3512-minimum-operations-to-make-array-sum-divisible-by-k.cpp` |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | math | cpp | `math/2235-add-two-integers.cpp` |
+| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Easy | tree | cpp | `tree/2236-root-equals-sum-of-children.cpp` |
+| 2356 | [Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Easy | database | sql | `database/2356-number-of-unique-subjects-taught-by-each-teacher.sql` |
+| 2410 | [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/) | Medium | greedy | cpp | `greedy/2410-maximum-matching-of-players-with-trainers.cpp` |
+| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | Easy | array | cpp | `array/2418-sort-the-people.cpp` |
+| 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | binary-search | cpp | `binary-search/2540-minimum-common-value.cpp` |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | Easy | array | cpp | `array/2553-separate-the-digits-in-an-array.cpp` |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | Easy | array | cpp | `array/2574-left-and-right-sum-differences.cpp` |
+| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | Easy | greedy | cpp | `greedy/2578-split-with-minimum-sum.cpp` |
+| 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | Easy | uncategorized | javascript | `uncategorized/2703-return-length-of-arguments-passed.js` |
+| 2706 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | greedy | cpp | `greedy/2706-buy-two-chocolates.cpp` |
+| 2798 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | Easy | array | cpp | `array/2798-number-of-employees-who-met-the-target.cpp` |
+| 2806 | [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/) | Easy | math | cpp | `math/2806-account-balance-after-rounded-purchase.cpp` |
+| 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy | binary-search | cpp | `binary-search/2824-count-pairs-whose-sum-is-less-than-target.cpp` |
+| 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | string | cpp | `string/2833-furthest-point-from-origin.cpp` |
+| 2877 | [Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list/) | Easy | uncategorized | python | `uncategorized/2877-create-a-dataframe-from-list.py` |
+| 2879 | [Display the First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/) | Easy | uncategorized | python | `uncategorized/2879-display-the-first-three-rows.py` |
+| 2886 | [Change Data Type](https://leetcode.com/problems/change-data-type/) | Easy | uncategorized | python | `uncategorized/2886-change-data-type.py` |
+| 3100 | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | Medium | math | cpp | `math/3100-water-bottles-ii.cpp` |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | string | cpp | `string/3110-score-of-a-string.cpp` |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | Easy | hash-table | cpp | `hash-table/3120-count-the-number-of-special-characters-i.cpp` |
+| 3190 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy | array | cpp | `array/3190-find-minimum-operations-to-make-all-elements-divisible-by-three.cpp` |
+| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | string | cpp | `string/3280-convert-date-to-binary.cpp` |
+| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | array | cpp | `array/3300-minimum-element-after-replacement-with-digit-sum.cpp` |
+| 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | array | cpp | `array/3432-count-partitions-with-even-sum-difference.cpp` |
+| 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | array | cpp | `array/3467-transform-array-by-parity.cpp` |
+| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | array | cpp | `array/3512-minimum-operations-to-make-array-sum-divisible-by-k.cpp` |
 | 3612 | [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | Medium | string | cpp | `string/3612-process-string-with-special-operations-i.cpp` |
 | 3643 | [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | array | cpp | `array/3643-flip-square-submatrix-vertically.cpp` |
 | 3668 | [Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | array | cpp | `array/3668-restore-finishing-order.cpp` |
