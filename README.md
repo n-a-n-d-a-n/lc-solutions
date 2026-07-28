@@ -155,3 +155,23 @@ A collection of **141 solved problems** from LeetCode, covering data structures,
 
 ---
 _README auto-generated from LeetCode's public API. Re-run `organize_lc_solutions.py` after adding new solutions._
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/n-a-n-d-a-n/lc-solutions/tree/main/0877-stone-game/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/n-a-n-d-a-n/lc-solutions/tree/main/0877-stone-game/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/n-a-n-d-a-n/lc-solutions/tree/main/0877-stone-game/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/n-a-n-d-a-n/lc-solutions/tree/main/0877-stone-game/) | Medium |
+<!---LeetCode Topics End-->
